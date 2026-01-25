@@ -1,0 +1,51 @@
+email_id,from,to,date,subject
+1,diana@company.com,bob@enterprise.org,2024-01-02,Update on Project Atlas
+2,george@enterprise.org,bob@company.com,2024-01-03,Update on Project Orion
+3,fiona@enterprise.org,diana@enterprise.org,2024-01-04,Update on Project Atlas
+4,harry@company.com,george@company.com,2024-01-05,Update on Client Delta
+5,george@enterprise.org,alice@company.com,2024-01-06,Update on Project Atlas
+6,george@company.com,alice@company.com,2024-01-07,Update on Client Delta
+7,diana@company.com,alice@company.com,2024-01-08,Update on AI Knowledge Graph
+8,george@enterprise.org,fiona@company.com,2024-01-09,Update on AI Knowledge Graph
+9,diana@company.com,bob@company.com,2024-01-10,Update on Cloud Migration
+10,alice@company.com,alice@enterprise.org,2024-01-11,Update on Client Delta
+11,alice@company.com,charles@enterprise.org,2024-01-12,Update on Cloud Migration
+12,bob@company.com,diana@enterprise.org,2024-01-13,Update on Project Orion
+13,george@enterprise.org,charles@enterprise.org,2024-01-14,Update on Project Orion
+14,harry@enterprise.org,george@enterprise.org,2024-01-15,Update on Client Delta
+15,diana@company.com,charles@enterprise.org,2024-01-16,Update on AI Knowledge Graph
+16,george@enterprise.org,charles@company.com,2024-01-17,Update on Project Orion
+17,george@company.com,george@enterprise.org,2024-01-18,Update on Project Orion
+18,diana@enterprise.org,edward@company.com,2024-01-19,Update on Project Atlas
+19,alice@company.com,fiona@company.com,2024-01-20,Update on Project Orion
+20,diana@company.com,charles@company.com,2024-01-21,Update on Project Orion
+21,charles@enterprise.org,charles@enterprise.org,2024-01-22,Update on Client Delta
+22,charles@enterprise.org,harry@enterprise.org,2024-01-23,Update on Client Delta
+23,edward@enterprise.org,harry@company.com,2024-01-24,Update on Cloud Migration
+24,harry@enterprise.org,edward@company.com,2024-01-25,Update on Client Delta
+25,fiona@enterprise.org,george@enterprise.org,2024-01-26,Update on Project Orion
+26,fiona@enterprise.org,charles@company.com,2024-01-27,Update on Cloud Migration
+27,diana@enterprise.org,diana@enterprise.org,2024-01-28,Update on Client Delta
+28,fiona@company.com,alice@company.com,2024-01-29,Update on AI Knowledge Graph
+29,alice@company.com,diana@company.com,2024-01-30,Update on Project Atlas
+30,diana@enterprise.org,alice@enterprise.org,2024-01-31,Update on Project Orion
+31,alice@enterprise.org,charles@enterprise.org,2024-02-01,Update on Client Delta
+32,george@enterprise.org,diana@company.com,2024-02-02,Update on AI Knowledge Graph
+33,diana@company.com,harry@enterprise.org,2024-02-03,Update on Project Orion
+34,alice@company.com,edward@company.com,2024-02-04,Update on Client Delta
+35,george@enterprise.org,fiona@enterprise.org,2024-02-05,Update on Project Orion
+36,edward@company.com,harry@company.com,2024-02-06,Update on AI Knowledge Graph
+37,fiona@enterprise.org,diana@enterprise.org,2024-02-07,Update on Project Atlas
+38,george@company.com,alice@company.com,2024-02-08,Update on Cloud Migration
+39,harry@enterprise.org,harry@enterprise.org,2024-02-09,Update on Project Orion
+40,harry@company.com,alice@enterprise.org,2024-02-10,Update on Cloud Migration
+41,diana@company.com,harry@company.com,2024-02-11,Update on Project Orion
+42,alice@enterprise.org,charles@company.com,2024-02-12,Update on Project Atlas
+43,george@company.com,george@company.com,2024-02-13,Update on AI Knowledge Graph
+44,fiona@company.com,alice@enterprise.org,2024-02-14,Update on Client Delta
+45,fiona@company.com,bob@enterprise.org,2024-02-15,Update on Project Orion
+46,edward@company.com,alice@company.com,2024-02-16,Update on Client Delta
+47,edward@enterprise.org,harry@company.com,2024-02-17,Update on Project Atlas
+48,alice@enterprise.org,alice@company.com,2024-02-18,Update on Project Orion
+49,diana@company.com,edward@company.com,2024-02-19,Update on Client Delta
+50,diana@company.com,harry@company.com,2024-02-20,Update on Client Delta

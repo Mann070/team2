@@ -1,0 +1,542 @@
+[
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:diana",
+    "target": "person:george",
+    "evidence": "Document 1: From diana@company.com To george@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:diana",
+    "target": "project:atlas",
+    "evidence": "Document 1: regarding Project Atlas"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:diana",
+    "target": "project:atlas",
+    "evidence": "Document 1: involved in Project Atlas"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:george",
+    "target": "person:fiona",
+    "evidence": "Document 2: From george@company.com To fiona@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:george",
+    "target": "project:orion",
+    "evidence": "Document 2: regarding Project Orion"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:george",
+    "target": "project:orion",
+    "evidence": "Document 2: involved in Project Orion"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:fiona",
+    "target": "person:harry",
+    "evidence": "Document 3: From fiona@company.com To harry@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:fiona",
+    "target": "project:cloud_migration",
+    "evidence": "Document 3: regarding Project Cloud_migration"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:fiona",
+    "target": "project:cloud_migration",
+    "evidence": "Document 3: involved in Project Cloud_migration"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:harry",
+    "target": "person:alice",
+    "evidence": "Document 4: From harry@company.com To alice@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:harry",
+    "target": "project:atlas",
+    "evidence": "Document 4: regarding Project Atlas"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:harry",
+    "target": "project:atlas",
+    "evidence": "Document 4: involved in Project Atlas"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:alice",
+    "target": "person:bob",
+    "evidence": "Document 5: From alice@company.com To bob@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:alice",
+    "target": "project:orion",
+    "evidence": "Document 5: regarding Project Orion"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:alice",
+    "target": "project:orion",
+    "evidence": "Document 5: involved in Project Orion"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:bob",
+    "target": "person:charles",
+    "evidence": "Document 6: From bob@company.com To charles@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:bob",
+    "target": "project:cloud_migration",
+    "evidence": "Document 6: regarding Project Cloud_migration"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:bob",
+    "target": "project:cloud_migration",
+    "evidence": "Document 6: involved in Project Cloud_migration"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:charles",
+    "target": "person:edward",
+    "evidence": "Document 7: From charles@company.com To edward@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:charles",
+    "target": "project:atlas",
+    "evidence": "Document 7: regarding Project Atlas"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:charles",
+    "target": "project:atlas",
+    "evidence": "Document 7: involved in Project Atlas"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:edward",
+    "target": "person:diana",
+    "evidence": "Document 8: From edward@company.com To diana@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:edward",
+    "target": "project:orion",
+    "evidence": "Document 8: regarding Project Orion"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:edward",
+    "target": "project:orion",
+    "evidence": "Document 8: involved in Project Orion"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:diana",
+    "target": "person:george",
+    "evidence": "Document 9: From diana@company.com To george@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:diana",
+    "target": "project:cloud_migration",
+    "evidence": "Document 9: regarding Project Cloud_migration"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:diana",
+    "target": "project:cloud_migration",
+    "evidence": "Document 9: involved in Project Cloud_migration"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:george",
+    "target": "person:fiona",
+    "evidence": "Document 10: From george@company.com To fiona@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:george",
+    "target": "project:atlas",
+    "evidence": "Document 10: regarding Project Atlas"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:george",
+    "target": "project:atlas",
+    "evidence": "Document 10: involved in Project Atlas"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:fiona",
+    "target": "person:harry",
+    "evidence": "Document 11: From fiona@company.com To harry@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:fiona",
+    "target": "project:orion",
+    "evidence": "Document 11: regarding Project Orion"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:fiona",
+    "target": "project:orion",
+    "evidence": "Document 11: involved in Project Orion"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:harry",
+    "target": "person:alice",
+    "evidence": "Document 12: From harry@company.com To alice@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:harry",
+    "target": "project:cloud_migration",
+    "evidence": "Document 12: regarding Project Cloud_migration"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:harry",
+    "target": "project:cloud_migration",
+    "evidence": "Document 12: involved in Project Cloud_migration"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:alice",
+    "target": "person:bob",
+    "evidence": "Document 13: From alice@company.com To bob@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:alice",
+    "target": "project:atlas",
+    "evidence": "Document 13: regarding Project Atlas"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:alice",
+    "target": "project:atlas",
+    "evidence": "Document 13: involved in Project Atlas"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:bob",
+    "target": "person:charles",
+    "evidence": "Document 14: From bob@company.com To charles@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:bob",
+    "target": "project:orion",
+    "evidence": "Document 14: regarding Project Orion"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:bob",
+    "target": "project:orion",
+    "evidence": "Document 14: involved in Project Orion"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:charles",
+    "target": "person:edward",
+    "evidence": "Document 15: From charles@company.com To edward@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:charles",
+    "target": "project:cloud_migration",
+    "evidence": "Document 15: regarding Project Cloud_migration"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:charles",
+    "target": "project:cloud_migration",
+    "evidence": "Document 15: involved in Project Cloud_migration"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:edward",
+    "target": "person:diana",
+    "evidence": "Document 16: From edward@company.com To diana@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:edward",
+    "target": "project:atlas",
+    "evidence": "Document 16: regarding Project Atlas"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:edward",
+    "target": "project:atlas",
+    "evidence": "Document 16: involved in Project Atlas"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:diana",
+    "target": "person:george",
+    "evidence": "Document 17: From diana@company.com To george@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:diana",
+    "target": "project:orion",
+    "evidence": "Document 17: regarding Project Orion"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:diana",
+    "target": "project:orion",
+    "evidence": "Document 17: involved in Project Orion"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:george",
+    "target": "person:fiona",
+    "evidence": "Document 18: From george@company.com To fiona@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:george",
+    "target": "project:cloud_migration",
+    "evidence": "Document 18: regarding Project Cloud_migration"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:george",
+    "target": "project:cloud_migration",
+    "evidence": "Document 18: involved in Project Cloud_migration"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:fiona",
+    "target": "person:harry",
+    "evidence": "Document 19: From fiona@company.com To harry@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:fiona",
+    "target": "project:atlas",
+    "evidence": "Document 19: regarding Project Atlas"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:fiona",
+    "target": "project:atlas",
+    "evidence": "Document 19: involved in Project Atlas"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:harry",
+    "target": "person:alice",
+    "evidence": "Document 20: From harry@company.com To alice@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:harry",
+    "target": "project:orion",
+    "evidence": "Document 20: regarding Project Orion"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:harry",
+    "target": "project:orion",
+    "evidence": "Document 20: involved in Project Orion"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:alice",
+    "target": "person:bob",
+    "evidence": "Document 21: From alice@company.com To bob@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:alice",
+    "target": "project:cloud_migration",
+    "evidence": "Document 21: regarding Project Cloud_migration"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:alice",
+    "target": "project:cloud_migration",
+    "evidence": "Document 21: involved in Project Cloud_migration"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:bob",
+    "target": "person:charles",
+    "evidence": "Document 22: From bob@company.com To charles@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:bob",
+    "target": "project:atlas",
+    "evidence": "Document 22: regarding Project Atlas"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:bob",
+    "target": "project:atlas",
+    "evidence": "Document 22: involved in Project Atlas"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:charles",
+    "target": "person:edward",
+    "evidence": "Document 23: From charles@company.com To edward@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:charles",
+    "target": "project:orion",
+    "evidence": "Document 23: regarding Project Orion"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:charles",
+    "target": "project:orion",
+    "evidence": "Document 23: involved in Project Orion"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:edward",
+    "target": "person:diana",
+    "evidence": "Document 24: From edward@company.com To diana@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:edward",
+    "target": "project:cloud_migration",
+    "evidence": "Document 24: regarding Project Cloud_migration"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:edward",
+    "target": "project:cloud_migration",
+    "evidence": "Document 24: involved in Project Cloud_migration"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:diana",
+    "target": "person:george",
+    "evidence": "Document 25: From diana@company.com To george@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:diana",
+    "target": "project:atlas",
+    "evidence": "Document 25: regarding Project Atlas"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:diana",
+    "target": "project:atlas",
+    "evidence": "Document 25: involved in Project Atlas"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:george",
+    "target": "person:fiona",
+    "evidence": "Document 26: From george@company.com To fiona@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:george",
+    "target": "project:orion",
+    "evidence": "Document 26: regarding Project Orion"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:george",
+    "target": "project:orion",
+    "evidence": "Document 26: involved in Project Orion"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:fiona",
+    "target": "person:harry",
+    "evidence": "Document 27: From fiona@company.com To harry@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:fiona",
+    "target": "project:cloud_migration",
+    "evidence": "Document 27: regarding Project Cloud_migration"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:fiona",
+    "target": "project:cloud_migration",
+    "evidence": "Document 27: involved in Project Cloud_migration"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:harry",
+    "target": "person:alice",
+    "evidence": "Document 28: From harry@company.com To alice@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:harry",
+    "target": "project:atlas",
+    "evidence": "Document 28: regarding Project Atlas"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:harry",
+    "target": "project:atlas",
+    "evidence": "Document 28: involved in Project Atlas"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:alice",
+    "target": "person:bob",
+    "evidence": "Document 29: From alice@company.com To bob@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:alice",
+    "target": "project:orion",
+    "evidence": "Document 29: regarding Project Orion"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:alice",
+    "target": "project:orion",
+    "evidence": "Document 29: involved in Project Orion"
+  },
+  {
+    "type": "COMMUNICATES_WITH",
+    "source": "person:bob",
+    "target": "person:charles",
+    "evidence": "Document 30: From bob@company.com To charles@enterprise.org"
+  },
+  {
+    "type": "REPORTS_ABOUT",
+    "source": "person:bob",
+    "target": "project:cloud_migration",
+    "evidence": "Document 30: regarding Project Cloud_migration"
+  },
+  {
+    "type": "WORKS_ON",
+    "source": "person:bob",
+    "target": "project:cloud_migration",
+    "evidence": "Document 30: involved in Project Cloud_migration"
+  }
+]

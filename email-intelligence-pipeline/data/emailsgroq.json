@@ -1,0 +1,46 @@
+[
+  { "type": "COMMUNICATES_WITH", "source": "person:diana", "target": "person:bob", "evidence": "From: diana@company.com To: bob@enterprise.org" },
+  { "type": "REPORTS_ABOUT", "source": "person:diana", "target": "technology:ai_knowledge_graph", "evidence": "regarding AI Knowledge Graph" },
+  { "type": "WORKS_ON", "source": "person:diana", "target": "technology:ai_knowledge_graph", "evidence": "regarding AI Knowledge Graph" },
+
+  { "type": "COMMUNICATES_WITH", "source": "person:george", "target": "person:bob", "evidence": "From: george@enterprise.org To: bob@company.com" },
+  { "type": "REPORTS_ABOUT", "source": "person:george", "target": "project:atlas", "evidence": "regarding Project Atlas" },
+  { "type": "WORKS_ON", "source": "person:george", "target": "project:atlas", "evidence": "regarding Project Atlas" },
+
+  { "type": "COMMUNICATES_WITH", "source": "person:fiona", "target": "person:diana", "evidence": "From: fiona@enterprise.org To: diana@enterprise.org" },
+  { "type": "REPORTS_ABOUT", "source": "person:fiona", "target": "project:cloud_migration", "evidence": "regarding Cloud Migration" },
+  { "type": "WORKS_ON", "source": "person:fiona", "target": "project:cloud_migration", "evidence": "regarding Cloud Migration" },
+
+  { "type": "COMMUNICATES_WITH", "source": "person:harry", "target": "person:george", "evidence": "From: harry@company.com To: george@company.com" },
+  { "type": "RELATED_TO", "source": "person:harry", "target": "client:delta", "evidence": "regarding Client Delta" },
+
+  { "type": "COMMUNICATES_WITH", "source": "person:george", "target": "person:alice", "evidence": "From: george@enterprise.org To: alice@company.com" },
+  { "type": "WORKS_ON", "source": "person:george", "target": "project:cloud_migration", "evidence": "regarding Cloud Migration" },
+
+  { "type": "COMMUNICATES_WITH", "source": "person:diana", "target": "person:alice", "evidence": "From: diana@company.com To: alice@company.com" },
+  { "type": "WORKS_ON", "source": "person:diana", "target": "project:atlas", "evidence": "regarding Project Atlas" },
+
+  { "type": "COMMUNICATES_WITH", "source": "person:george", "target": "person:fiona", "evidence": "From: george@enterprise.org To: fiona@company.com" },
+  { "type": "WORKS_ON", "source": "person:george", "target": "project:cloud_migration", "evidence": "regarding Cloud Migration" },
+
+  { "type": "COMMUNICATES_WITH", "source": "person:diana", "target": "person:bob", "evidence": "From: diana@company.com To: bob@enterprise.org" },
+  { "type": "WORKS_ON", "source": "person:diana", "target": "project:orion", "evidence": "regarding Project Orion" },
+
+  { "type": "COMMUNICATES_WITH", "source": "person:alice", "target": "person:charles", "evidence": "From: alice@company.com To: charles@enterprise.org" },
+  { "type": "WORKS_ON", "source": "person:alice", "target": "technology:ai_knowledge_graph", "evidence": "regarding AI Knowledge Graph" },
+
+  { "type": "COMMUNICATES_WITH", "source": "person:bob", "target": "person:diana", "evidence": "From: bob@company.com To: diana@enterprise.org" },
+  { "type": "WORKS_ON", "source": "person:bob", "target": "project:orion", "evidence": "regarding Project Orion" },
+
+  { "type": "COMMUNICATES_WITH", "source": "person:harry", "target": "person:edward", "evidence": "From: harry@enterprise.org To: edward@company.com" },
+  { "type": "RELATED_TO", "source": "person:harry", "target": "client:delta", "evidence": "regarding Client Delta" },
+
+  { "type": "COMMUNICATES_WITH", "source": "person:edward", "target": "person:charles", "evidence": "From: edward@enterprise.org To: charles@enterprise.org" },
+  { "type": "WORKS_ON", "source": "person:edward", "target": "project:atlas", "evidence": "regarding Project Atlas" },
+
+  { "type": "COMMUNICATES_WITH", "source": "person:fiona", "target": "person:alice", "evidence": "From: fiona@company.com To: alice@company.com" },
+  { "type": "RELATED_TO", "source": "person:fiona", "target": "client:delta", "evidence": "regarding Client Delta" },
+
+  { "type": "COMMUNICATES_WITH", "source": "person:charles", "target": "person:harry", "evidence": "From: charles@enterprise.org To: harry@enterprise.org" },
+  { "type": "WORKS_ON", "source": "person:charles", "target": "project:cloud_migration", "evidence": "regarding Cloud Migration" }
+]
