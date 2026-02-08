@@ -1,0 +1,148 @@
+--- Email 1 ---
+From: diana@company.com To: bob@enterprise.org Regarding Project Atlas
+Extracted JSON: {'type': 'WORKS_ON', 'source': 'person:diana', 'target': 'project:atlas'}
+Cypher executed:
+
+MERGE (a:Person {name:'diana'})
+MERGE (b:Project {name:'atlas'})
+MERGE (a)-[:WORKS_ON]->(b)
+
+
+--- Email 2 ---
+From: george@company.com To: alice@enterprise.org Working on Cloud Migration
+Extracted JSON: {'type': 'WORKS_ON', 'source': 'person:george', 'target': 'project:cloud_migration'}
+Cypher executed:
+
+MERGE (a:Person {name:'george'})
+MERGE (b:Project {name:'cloud_migration'})
+MERGE (a)-[:WORKS_ON]->(b)
+
+
+--- Email 3 ---
+From: fiona@company.com To: diana@enterprise.org AI Knowledge Graph update
+Extracted JSON: {'type': 'WORKS_ON', 'source': 'person:fiona', 'target': 'technology:ai_knowledge_graph'}
+Cypher executed:
+
+MERGE (a:Person {name:'fiona'})
+MERGE (b:Technology {name:'ai_knowledge_graph'})
+MERGE (a)-[:WORKS_ON]->(b)
+
+
+--- Email 4 ---
+From: harry@company.com To: george@enterprise.org Client Delta discussion
+Extracted JSON: {'type': 'RELATED_TO', 'source': 'person:harry', 'target': 'client:delta'}
+Cypher executed:
+
+MERGE (a:Person {name:'harry'})
+MERGE (b:Client {name:'delta'})
+MERGE (a)-[:RELATED_TO]->(b)
+
+
+--- Email 5 ---
+From: alice@company.com To: bob@enterprise.org Orion project review
+Extracted JSON: {'type': 'WORKS_ON', 'source': 'person:alice', 'target': 'project:orion'}
+Cypher executed:
+
+MERGE (a:Person {name:'alice'})
+MERGE (b:Project {name:'orion'})
+MERGE (a)-[:WORKS_ON]->(b)
+
+
+--- Email 6 ---
+From: charles@company.com To: edward@enterprise.org Cloud Migration plan
+Extracted JSON: {'type': 'WORKS_ON', 'source': 'person:george', 'target': 'project:cloud_migration'}
+Cypher executed:
+
+MERGE (a:Person {name:'george'})
+MERGE (b:Project {name:'cloud_migration'})
+MERGE (a)-[:WORKS_ON]->(b)
+
+
+--- Email 7 ---
+From: bob@company.com To: diana@enterprise.org AI Knowledge Graph progress
+Extracted JSON: {'type': 'WORKS_ON', 'source': 'person:fiona', 'target': 'technology:ai_knowledge_graph'}
+Cypher executed:
+
+MERGE (a:Person {name:'fiona'})
+MERGE (b:Technology {name:'ai_knowledge_graph'})
+MERGE (a)-[:WORKS_ON]->(b)
+
+
+--- Email 8 ---
+From: george@company.com To: fiona@enterprise.org Atlas sprint update
+Extracted JSON: {'type': 'WORKS_ON', 'source': 'person:diana', 'target': 'project:atlas'}
+Cypher executed:
+
+MERGE (a:Person {name:'diana'})
+MERGE (b:Project {name:'atlas'})
+MERGE (a)-[:WORKS_ON]->(b)
+
+
+--- Email 9 ---
+From: edward@company.com To: harry@enterprise.org Client Delta follow-up
+Extracted JSON: {'type': 'RELATED_TO', 'source': 'person:harry', 'target': 'client:delta'}
+Cypher executed:
+
+MERGE (a:Person {name:'harry'})
+MERGE (b:Client {name:'delta'})
+MERGE (a)-[:RELATED_TO]->(b)
+
+
+--- Email 10 ---
+From: alice@company.com To: charles@enterprise.org Orion milestones
+Extracted JSON: {'type': 'WORKS_ON', 'source': 'person:alice', 'target': 'project:orion'}
+Cypher executed:
+
+MERGE (a:Person {name:'alice'})
+MERGE (b:Project {name:'orion'})
+MERGE (a)-[:WORKS_ON]->(b)
+
+
+--- Email 11 ---
+From: fiona@company.com To: bob@enterprise.org AI pipeline design
+Extracted JSON: {'type': 'WORKS_ON', 'source': 'person:fiona', 'target': 'technology:ai_knowledge_graph'}
+Cypher executed:
+
+MERGE (a:Person {name:'fiona'})
+MERGE (b:Technology {name:'ai_knowledge_graph'})
+MERGE (a)-[:WORKS_ON]->(b)
+
+
+--- Email 12 ---
+From: harry@company.com To: alice@enterprise.org Cloud Migration status
+Extracted JSON: {'type': 'WORKS_ON', 'source': 'person:george', 'target': 'project:cloud_migration'}
+Cypher executed:
+
+MERGE (a:Person {name:'george'})
+MERGE (b:Project {name:'cloud_migration'})
+MERGE (a)-[:WORKS_ON]->(b)
+
+
+--- Email 13 ---
+From: diana@company.com To: george@enterprise.org Atlas delivery timeline
+Extracted JSON: {'type': 'WORKS_ON', 'source': 'person:diana', 'target': 'project:atlas'}
+Cypher executed:
+
+MERGE (a:Person {name:'diana'})
+MERGE (b:Project {name:'atlas'})
+MERGE (a)-[:WORKS_ON]->(b)
+
+
+--- Email 14 ---
+From: charles@company.com To: bob@enterprise.org Project Orion sync
+Extracted JSON: {'type': 'WORKS_ON', 'source': 'person:alice', 'target': 'project:orion'}
+Cypher executed:
+
+MERGE (a:Person {name:'alice'})
+MERGE (b:Project {name:'orion'})
+MERGE (a)-[:WORKS_ON]->(b)
+
+
+--- Email 15 ---
+From: edward@company.com To: diana@enterprise.org AI Knowledge Graph notes
+Extracted JSON: {'type': 'WORKS_ON', 'source': 'person:fiona', 'target': 'technology:ai_knowledge_graph'}
+Cypher executed:
+
+MERGE (a:Person {name:'fiona'})
+MERGE (b:Technology {name:'ai_knowledge_graph'})
+MERGE (a)-[:WORKS_ON]->(b)
